@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LOGIN AND PRODUCT SEARCH TEST" >
+    <test name="PIXEL 2 MOBILE" parallel="true">
+        <parameter name="deviceName" value="PIXEL 2" />
+        <parameter name="platformVersion" value="9.0" />
+        <classes>
+            <class name="com.styli.runCukes.TestCases" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LOGIN AND PRODUCT SEARCH TEST" >
+    <test name="PIXEL 2 MOBILE TEST WITH CUCUMBER" >
+        <classes>
+            <class name="com.styli.runCukes.TestRunner" />
+        </classes>
+    </test>
+</suite>
